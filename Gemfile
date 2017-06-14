@@ -15,6 +15,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3.6'
 
 group :development, :test do
+  gem 'pry'
   gem 'sqlite3'
   gem 'byebug', platform: :mri
 end
